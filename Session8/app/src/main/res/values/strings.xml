@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Session 8</string>
+    <string name="displayText">Welcome to the Demo</string>
+    <string name="forJavaCodeBasedDisplay"> Warm Welcome.....</string>
+    <array name="cities">
+        <item>City 1</item>
+        <item>City 2</item>
+        <item>City 3</item>
+        <item>City 4</item>
+        <item>City 5</item>
+    </array>
+
+    <array name="cityValues">
+        <item>Delhi</item>
+        <item>Mumbai</item>
+        <item>Pune</item>
+        <item>Banglore</item>
+        <item>Hyderabad</item>
+    </array>
+</resources>

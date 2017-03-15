@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="myname"
+        android:summary="First name followed by last name"
+        android:title="Enter your Name" />
+
+    <CheckBoxPreference
+        android:key="coding"
+        android:summary="Check if you like to code"
+        android:title="I love Coding .." />
+
+    <SwitchPreference
+        android:key="coding"
+        android:title="Day Light Saving" />
+    <ListPreference
+        android:key="city"
+        android:entries="@array/cityValues"
+        android:entryValues="@array/cityValues"
+        android:summary="Where would you be comfortable working.."
+        android:title="Select City of your Pref.." />
+</PreferenceScreen>
